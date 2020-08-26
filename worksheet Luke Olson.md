@@ -2,7 +2,7 @@
 # CSCE 155E 
 ## Lab 2.0 Worksheet
 
-Name(s) and Login(s):
+Name(s) and Login(s): Luke Olson
 
 
 
@@ -11,14 +11,14 @@ was born on September 9th, 1941.  If he were still alive,
 how old would he be today?  Find out by running the `birthday`
 program on the appropriate inputs and enter your solution here.
 
-
+78 years, 50 weeks, 1 day
 
 
 2. Bjarne Stroustrup, the creator of the C++ programming
 language, the object-oriented extension of C, was born on 
 December 30th, 1950.  How old is he today?
 
-
+69 years, 34 weeks, 1 day
 
 
 3. Software testing often involves testing code with known
@@ -28,8 +28,8 @@ program by giving it "bad" input and observe the consequences.
 Give at least two examples of potentially bad input and the 
 results you observe.
 
-
-
+  1. inputing t for the birth year with a normal name and 1s for the months outputs my birthday as 0/01/01
+  2. inputing %^&* for my name outputs an invalid number of command line inputs error
 
 4. Complete all the size and range entries below.
 
@@ -37,19 +37,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size: 
-  range: 
+  size: 2 bytes
+  range: -32768 to 32767
 * `int`
-  size: 
-  range: 
+  size: 4 bytes
+  range:  -2147483648 to 2147483647
 * `long int`
-  size: 
-  range: 
+  size: 8 bytes
+  range: -9223372036854775808 to 9223372036854775807
 * `float`
-  size: 
+  size: 4 bytes
   range: 7 digits of accuracy
 * `double`
-  size: 
+  size: 8 bytes
   range: 15 digits of accuracy
 
 
